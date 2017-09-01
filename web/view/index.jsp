@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>maven</title>
   </head>
   <body>
-  $END$
+  ${user.userName} + ${user.age}
   </body>
 </html>

@@ -153,11 +153,9 @@
                 <configuration>
                     <ignorePackaging>true</ignorePackaging>
                     <port>8080</port>
-                    <url>http://localhost:8080/manager/text</url>
+                    <url>http://106.14.4.16:8080//manager/text</url>
                     <!-- server、username、password对应maven的setting下的配置 -->
-                    <server>tomcat</server>
-                    <username>admin</username>
-                    <password>admin</password>
+                    <server>tomcat-remote</server>
                     <path>/${project.build.finalName}</path>
                     <!-- war文件路径缺省情况下指向target -->
                     <warFile>${basedir}/target/${project.build.finalName}-1.0.war</warFile>

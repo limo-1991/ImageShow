@@ -8,12 +8,8 @@
     </settings>
 
     <typeAliases>
-        <typeAlias type="studio.limo.image.entity.User" alias="User"/>
+        <typeAlias type="studio.limo.image.entity.Image" alias="Image"/>
     </typeAliases>
-
-    <mappers>
-        <mapper resource="mybatis/mapper/UserMapper.xml"/>
-    </mappers>
 
     <!--<plugins>-->
         <!--<plugin interceptor="com.fh.plugin.PagePlugin">-->
